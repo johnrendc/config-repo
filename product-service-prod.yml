@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:productdb-prod
+    username: produser
+    password: '{cipher}AQASRPYvpLvmkyhEPG5KK6PaGkKYDKyIpOVm6tA1E91DFTrK1CPSIH9WRWGOiDRlH8x5D4bZWHbqL8g=='
+product-service:
+  feature-flags:
+    enable-discount: false
+  catalog:
+    refresh-rate-seconds: 3600

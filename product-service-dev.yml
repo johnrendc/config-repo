@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: product-service
+  datasource:
+    url: jdbc:h2:mem:productdb-dev
+product-service:
+  feature-flags:
+    enable-discount: true
+  catalog:
+    refresh-rate-seconds: 60
