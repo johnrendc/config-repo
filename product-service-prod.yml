@@ -7,4 +7,4 @@ product-service:
   feature-flags:
     enable-discount: false
   catalog:
-    refresh-rate-seconds: 3600
+    refresh-rate-seconds: 600
